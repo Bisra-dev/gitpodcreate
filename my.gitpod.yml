@@ -1,0 +1,14 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: mvn compile
+  - command: |
+      echo "JavaFX GitPod Environment Ready!"
+      echo "To run: mvn javafx:run"
+      echo "Or: mvn exec:java"
+
+vscode:
+  extensions:
+    - "vscjava.vscode-java-pack"
+    
